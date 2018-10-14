@@ -1,0 +1,16 @@
+<div class="nav-container">
+
+    <ul class="base-list-container">
+        <li *ngFor="let element of elements">
+            <span (click)="action(element)">{{element.name}}</span>
+
+            <ul *ngIf="element.subsection">
+                <li *ngFor="let subelement of element.subsection">
+                        <span (click)="action(subelement)">{{subelement.name}}</span>
+                </li>
+            </ul>
+
+        </li>
+    </ul>
+
+</div>

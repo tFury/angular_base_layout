@@ -1,0 +1,57 @@
+{
+    "name": "projects",
+    "version": "0.0.1",
+    "description": "description of all the possible projects in mind",
+    "main": "index.js",
+    "scripts": {
+        "build:dev": "webpack --mode development",
+        "start:dev": "webpack-dev-server --mode development",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://ThomasHaenig@bitbucket.org/ThomasHaenig/projects.git"
+    },
+    "author": "tFury",
+    "license": "MIT",
+    "homepage": "https://bitbucket.org/ThomasHaenig/projects#readme",
+    "dependencies": {
+        "@angular/cdk": "6.4.7",
+        "@angular/common": "6.1.9",
+        "@angular/compiler": "6.1.9",
+        "@angular/animations": "6.1.9",
+        "@angular/core": "6.1.9",
+        "@angular/forms": "6.1.9",
+        "@angular/http": "6.1.9",
+        "@angular/material": "6.4.7",
+        "@angular/platform-browser": "6.1.9",
+        "@angular/platform-browser-dynamic": "6.1.9",
+        "@angular/router": "6.1.9",
+        "@types/node": "^10.11.5",
+        "core-js": "2.5.7",
+        "rxjs": "6.3.3",
+        "zone.js": "0.8.26",
+        "letslog": "1.0.3"
+    },
+    "devDependencies": {
+        "copy-webpack-plugin": "4.5.2",
+        "live-server": "1.2.0",
+        "node-sass": "4.9.3",
+        "ts-loader": "5.2.1",
+        "html-loader": "0.5.5",
+        "css-loader": "1.0.0",
+        "raw-loader": "0.5.1",
+        "sass-loader": "7.1.0",
+        "style-loader": "0.23.1",
+        "awesome-typescript-loader": "5.2.1",
+        "angular2-template-loader": "0.6.2",
+        "typescript": "2.9.2",
+        "webpack": "4.20.2",
+        "webpack-cli": "3.1.2",
+        "webpack-dev-server": "3.1.9",
+        "html-webpack-plugin": "3.2.0",
+        "script-ext-html-webpack-plugin": "2.0.1",
+        "@ngtools/webpack": "6.2.4",
+        "@angular/compiler-cli": "6.1.9"
+    }
+}

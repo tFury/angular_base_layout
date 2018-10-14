@@ -1,0 +1,9 @@
+<side-title title="{{section.title}}"></side-title>
+
+<side-content description="{{section.description}}"></side-content>
+
+<side-text-section 
+    *ngFor="let content of section.contents" 
+    title="{{content.title}}"
+    text="{{content.description}}">
+</side-text-section>

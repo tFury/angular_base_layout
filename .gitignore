@@ -1,3 +1,14 @@
+# Individual Folder
+.vscode
+node_modules
+dist
+src/assets/data
+
+
+# Individual Files
+package-lock.json
+
+
 # Logs
 logs
 *.log
